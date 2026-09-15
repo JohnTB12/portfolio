@@ -74,6 +74,16 @@ body {
     font-weight: bolder;
     padding: 0;
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
 
 @media (min-width: 600px) {
     .site-header {
