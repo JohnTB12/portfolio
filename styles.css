@@ -3,8 +3,9 @@
 }
 
 body {
-    margin: 0;
-    font-family: "Comic Sans MS", cursive;
+    /*border: black solid 2px;
+    margin: 0 25%;*/
+    font-family: "Comic ", cursive;
     background-color: lightblue;
     text-align: center;
 }
@@ -13,8 +14,8 @@ body {
     background-color: lightskyblue;
     opacity: 84%;
     border: 2px solid black;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    /*border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;*/
     width: 100%;
     padding: 12px 0;
     font-weight: bold;
@@ -38,7 +39,7 @@ body {
 .content-box {
     background-color: aquamarine;
     border: 2px solid black;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
     width: fit-content;
     max-width: 92%;
     margin: 20px auto;
@@ -54,11 +55,11 @@ body {
 .placeholder {
     display: block;
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     height: auto;
     margin: 20px auto 0;
     border: 2px solid black;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
 }
 
 .skills {
@@ -81,7 +82,7 @@ body {
     gap: 8px;
     width: 100%;
     border: 1px solid black;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
     padding: 10px;
 }
 
