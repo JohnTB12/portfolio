@@ -94,7 +94,7 @@ body {
 }
 
 .skills,
-.timeline {
+.Education {
     list-style: none;
     padding: 0;
     margin: 0 0 16px;
@@ -105,7 +105,28 @@ body {
 }
 
 .skills li,
-.timeline li {
+.Education li {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.skills,
+.Employment {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.skills li,
+.Employment li {
     background-color: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 999px;
