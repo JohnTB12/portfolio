@@ -105,6 +105,12 @@ main {
     margin-bottom: 8px;
 }
 
+.intro-section p {
+    text-align: left;
+    margin: 0 0 16px;
+    font-size: 0.95rem;
+}
+
 .portfolio-image {
     display: block;
     width: 100%;
