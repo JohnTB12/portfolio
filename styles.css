@@ -174,7 +174,17 @@ main {
     border-radius: 6px;
     font-weight: 500;
     transition: background-color 0.15s ease;
+    display: inline-flex;
+    align-items: center;
 }
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    flex-shrink: 0;
+}
+
 .site-footer div {
     display: flex;
     flex-direction: column;
